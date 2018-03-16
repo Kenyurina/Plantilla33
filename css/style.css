@@ -1,0 +1,137 @@
+body { font-family:'Dosis', sans-serif; overflow-x:hidden; }
+
+        /*COLORES DE LA PLANTILLA*/
+
+.color_a {background-color:#1976d2;}  /*Azul oscuro*/
+.color_b {background-color:#2196f3;}  /*Azul claro*/
+.color_c {background-color: #E64A19;} /*Mostaza oscuro*/
+.color_d {background-color:#f3f3f3;}  /*Gris Claro*/
+.color_e {color:#ffffff!important;}   /*Blanco*/
+.color_f {background-color:#ffffff;}  /*Blanco*/
+.color_g {color:#1976d2; }   	      /*Azul oscuro*/
+.color_h { color:#223039; }
+/*.color_i { background-color:#091926;}*/
+.color_j {background-color:#baddfa;}  /*azul clarito*/
+
+
+                                /*ESTILOS DE LA CABECERA*/
+
+.header{padding: 9px; text-align:center;}
+
+
+
+		                      /*ESTILOS DEL MENU  INDEX*/
+
+.dropdown-menu > li > a {font-weight: normal; white-space: nowrap;}
+.men{ border-style: none;  }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background-color:#2196f3;}
+.navbar-default .navbar-nav .alin .dropdown-menu .stc-fclaro-hover a:hover{ background-color:#baddfa;}
+.cont {clear:both; float:left; width:100%;}
+.navbar-toggle { position: relative; float: right; padding: 9px 10px; /*margin-top: -230px; */margin-right: 15px; margin-bottom: 8px; border-radius: 0px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: transparent;}
+.navbar-header a img{ width:60px; height:50px; }
+#menu {float:left; left:50%; list-style-type:none; margin:0 auto; padding:0.5px; position:relative; font-family:'Dosis', sans-serif;}
+#menu .alin { /*float:left;*/ position:relative; right:50%;}
+#menu li a {font-size:12px;}
+
+
+
+                            /*ESTILOS DEL MENU SECUNDARIO INDEX*/
+
+.container-fluid .collapse .cont ul li:hover{ background-color:#2196f3;}
+
+
+
+
+                            /*ESTILOS DEL SLIDER*/
+.slide{ margin-top:20px; }
+
+
+
+
+                            /*ESTILOS DEL MENU CATEGORIAS*/
+
+.men_a{ background-color:#1976d2; bottom:0px}
+.navbar {margin-bottom: -20px;}
+
+
+
+
+                            /*ESTILOS DEL CUERPO INDEX*/
+
+.cuerpo h1{text-align:center; font-size:2em; margin:50px;}
+.cuerpo img{width:300px; height:214px;}
+.cuerpo p{ font-family:'Dosis', sans-serif; font-size:1em; text-align:center; }
+.iconos { text-align: center; padding: 20px; margin:20px;}
+
+
+
+
+
+
+                            /*ESTILOS DEL CUERPO QUIENES SOMOS*/
+
+.heading-title{ border-bottom:2px dotted #B6B6B6; text-align:center; margin:20px 0 0px; font-size:3em; font-weight:bold; text-transform:uppercase; padding-bottom:20px; }
+.informacion{ text-align: left;  border-bottom:1px solid #B6B6B6; }
+.informacion p{ text-align:left; }
+.img_grupo{ text-align: center; }
+.img_grupo img{ width:230px; height:150px;}
+
+
+
+
+                            /*ESTILOS DEL CUERPO CONTACTENOS*/
+
+.boton_color{ background-color: #337ab7; border-color: #2e6da4; color: #fff; }
+.titleform { font-size:30px; }
+.padin{ padding-bottom:50px; padding-top: 50px; }
+.btn{ margin-left:15px; border-radius:0px; }
+
+    /*ESTILOS DEL CUERPO */
+.title-f{margin-left:15px; padding-bottom:20px;}
+.descripcion{ font-size: 25px; line-height: 50px; }   
+.padin-a{ padding-top:50px; }
+.indicadores{ margin-left:6%; padding: 60px; }
+.imgindicador{ bottom: 10px;}
+
+
+
+
+	                       /*ESTILOS DEL CUERPO PRODUCTOS*/
+
+.product-block {padding-bottom: 20px;}
+.product-block .product-meta .name {margin: 0px;height: 50px; width:350px;}
+.product-block .product-meta .name a {font-size: 1.3em; height: 40px; overflow: hidden;  padding: 15px; text-align: center; 
+color:#1976d2; width: 100%; display: inline-block; text-decoration:none;}
+.cols{ padding-top:20px; }
+.imgindicador li img{ padding:5px; width:60px; height:60px}
+.servicios img { width:600px; height:400px; }
+
+                  
+
+
+
+
+                            /*ESTILOS DEL FOOTER*/
+
+.cintillo{ padding:10px; font-size:18px; text-align:center;}
+.box{display:flex; justify-content:space-between; align-items:center; padding-bottom:20px;}
+.box h2{font-size:30px;}
+.box small {font-size:17px; line-height:27px; }
+.footer{padding:20px 0; display:flex;}
+.search-form input{ border-radius:0px;}
+.search-form button{ border-radius:0px; float:right;}
+/*.search-form button:hover{ color: #FFFFFF; }*/
+
+
+                                /*ESTILOS DEL MODAL*/
+
+.modal {display: none;position: fixed;z-index: 20;padding-top: 100px;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgba(0, 0, 0, .8);}
+.modal-content {position: relative;background-color: #fefefe;margin: auto;padding: 0;width: 90%;max-width: 800px;}
+.close {color: white;position: absolute;top: 10px;right: 25px;font-size: 35px;font-weight: bold;}
+.close:hover,
+.close:focus {color: #999;text-decoration: none;cursor: pointer;}
+.mySlides {display: none;}
+.cursor {cursor: pointer}
+
